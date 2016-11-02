@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #BBD888;
+  color: #60495A;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #BBD888;
+  color: #60495A;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #BBD888;
+  background: #60495A;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #BBD888;
+  background: #60495A;
 }
 
 ::selection {
   color: #fff;
-  background: #BBD888;
+  background: #60495A;
 }
 
 .fh5co-nav {
@@ -94,10 +94,10 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav .top-menu {
   padding: 28px 0;
   height: 90px;
-  background: rgba(0, 0, 0, 0.05);
+  background: #60495A;
 }
 .fh5co-nav .top {
-  background: #451a47;
+  background: #9FB6A5;
   padding: 7px 0;
   margin-bottom: 0;
 }
@@ -135,22 +135,23 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-left: 7px;
   text-transform: uppercase;
   font-weight: bold;
-  font-weight: 700;
+  font-weight: 600;
   font-family: "Work Sans", Arial, sans-serif;
   width: 250px;
   line-height: 22px;
-  border-left: 6px solid #BBD888;
+  border-left: 6px solid gold;
+  color: white;
   /*background: url(../images/FC-securities_V1.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;*/
 }
 .fh5co-nav #fh5co-logo a span {
-  color: #BBD888;
+  color: #60495A;
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: #451a47;
+  color: white;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
@@ -194,7 +195,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 0;
   text-align: left;
-  background: #BBD888;
+  background: #60495A;
   padding: 20px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -203,7 +204,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0s;
   -o-transition: 0s;
   transition: 0s;
-  border-top: 6px solid #451A47;
+  border-top: 6px solid gold;
 }
 .fh5co-nav ul li.has-dropdown .dropdown:before {
   bottom: calc(100% + 5px);
@@ -214,7 +215,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-bottom-color: #451A47;
+  border-bottom-color: gold;
   border-width: 8px;
   margin-left: -8px;
 }
@@ -244,7 +245,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a span {
-  background: #451A47;
+  background: #9FB6A5;
   padding: 4px 20px;
   display: -moz-inline-stack;
   display: inline-block;
@@ -264,8 +265,9 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .fh5co-nav ul li.active > a {
-  /*color: #BBD888 !important;*/
-  border-bottom: 4px solid #bbd888;
+  /*color: #60495A !important;*/
+  background: #9FB6A5;
+  border-bottom: 4px solid gold;
 }
 /*.fh5co-nav li.active:after{
   position: absolute;
@@ -274,7 +276,7 @@ h1, h2, h3, h4, h5, h6, figure {
   content: "";
   width: 100%;
   height: 10px;
-  background: #bbd888;
+  background: #60495A;
 }*/
 
 #fh5co-header,
@@ -441,7 +443,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #BBD888;
+  color: #60495A;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -460,7 +462,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #BBD888;
+  color: #60495A;
   position: absolute;
   left: 0;
   top: .05em;
@@ -535,7 +537,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 30px;
-  background: #BBD888 !important;
+  background: #60495A !important;
   color: #fff;
   border: none !important;
   font-size: 18px;
@@ -543,7 +545,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #451A47 !important;
+  background: #9fb6a5 !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -644,7 +646,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 40px;
   height: 2px;
   margin: 0 auto;
-  background: #BBD888;
+  background: #60495A;
   content: '';
 }
 
@@ -682,7 +684,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 .trainer .title h3 a:hover, .trainer .title h3 a:focus {
-  color: #BBD888;
+  color: #60495A;
 }
 .trainer .title span {
   text-transform: uppercase;
@@ -758,7 +760,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: white;
 }
 .fh5co-tabs .fh5co-tab-nav li.active a {
-  background: #BBD888;
+  background: #60495A;
   color: #fff;
 }
 .fh5co-tabs .fh5co-tab-content-wrap {
@@ -827,7 +829,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-tabs .class-schedule li .time {
   display: inline-block;
   padding: 5px 12px;
-  background: #BBD888;
+  background: #60495A;
   color: #fff;
   font-size: 13px;
 }
@@ -852,10 +854,10 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .price-box.popular .btn-select-plan {
-  background: #BBD888;
+  background: #60495A;
 }
 .price-box.popular .price {
-  color: #BBD888;
+  color: #60495A;
 }
 .price-box .btn-select-plan {
   padding: 10px 20px;
@@ -1053,7 +1055,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 60px;
   height: 2px;
   margin: 0 auto;
-  background: #BBD888;
+  background: #60495A;
   content: '';
 }
 .fh5co-heading p {
@@ -1147,7 +1149,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-started h2 .percent {
-  color: #BBD888;
+  color: #60495A;
   font-weight: 700;
 }
 #fh5co-started p {
@@ -1183,7 +1185,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #BBD888;
+  background: #60495A;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1232,7 +1234,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 2px 10px;
   padding-left: 40px;
   margin-left: -40px;
-  background: #BBD888;
+  background: #9fb6a5;
   position: relative;
 }
 .fh5co-blog .blog-text span.posted_on:before {
@@ -1244,7 +1246,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 0;
   border-style: solid;
   border-width: 0 0 9px 9px;
-  border-color: transparent transparent #BBD888 transparent;
+  border-color: transparent transparent #60495A transparent;
 }
 .fh5co-blog .blog-text span.comment {
   float: right;
@@ -1253,7 +1255,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(0, 0, 0, 0.3);
 }
 .fh5co-blog .blog-text span.comment a i {
-  color: #BBD888;
+  color: #60495A;
   padding-left: 7px;
 }
 .fh5co-blog .blog-text h3 {
@@ -1586,25 +1588,26 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn:hover, .btn:active, .btn:focus {
   box-shadow: none !important;
   outline: none !important;
+  background: blue !important;
 }
 
 .btn-primary {
-  background: #BBD888;
+  background: #60495A;
   color: #fff;
-  border: 2px solid #BBD888;
+  border: 2px solid #60495A;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f96c2f !important;
-  border-color: #f96c2f !important;
+  background: #9fb6a5 !important;
+  border-color: #9fb6a5 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #BBD888;
-  border: 1px solid #BBD888;
+  color: #60495A;
+  border: 1px solid #60495A;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #451A47 !important;
-  border: 1px solid #451A47 !important;
+  background: #60495a !important;
+  border: 1px solid #60495a !important;
   color: #fff;
 }
 
@@ -1734,7 +1737,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #BBD888;
+  border-color: #60495A;
 }
 
 .row-pb-md {
@@ -1760,3 +1763,4 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+/**/
