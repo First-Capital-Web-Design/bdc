@@ -12,7 +12,7 @@
 .simform {
 	position: relative;
 	margin: 0 auto;
-	padding: 2em 0;
+	padding: 0;
 	max-width: 860px;
 	width: 100%;
 	text-align: left;
@@ -35,7 +35,7 @@
 
 .simform ol:before {
 	content: '';
-	background-color: rgba(0,0,0,0.1);
+	background-color: #9fb6a5;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -180,7 +180,8 @@
 .simform .progress {
 	width: 0%;
 	height: 0.15em;
-	background: #60495a;
+	background: orange;
+	border-radius: 0;
 	-webkit-transition: width 0.4s ease-in-out;
 	transition: width 0.4s ease-in-out;
 }
@@ -190,8 +191,12 @@
 	top: auto;
 	width: 100%;
 	height: inherit;
-	background: rgba(0,0,0,0.05);
+	background: gold;
 	content: '';
+
+    /* create a new stacking context */
+    position: absolute;
+    z-index: -1;  /* to be below the parent element */
 }
 
 /* Number indicator */

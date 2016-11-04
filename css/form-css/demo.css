@@ -15,8 +15,7 @@
 .clearfix:after { clear: both; }
 
 body .frm {
-	background: #9fb6a5;
-	color: #60495a;
+	color: #4A3B93;
 	font-size: 100%;
 	line-height: 1.25;
 }
@@ -24,14 +23,15 @@ body .frm {
 .frm h2{
 	font-size: 40px;
 	font-weight: bold;
-	background-color: #60495a;
-	color: #9fb6a5;
+	background-color: #4A3B93;
+	color: white;
 	display: inline-block;
 	padding: 10px;
 	margin-bottom: 50px;
 }
+
 .frm span {
-	color: #60495a;
+	color: #4A3B93;
 	font-size: 20px;
 	font-weight: 300 !important;
 }
@@ -117,8 +117,8 @@ a:hover, a:focus {
 
 section {
 	padding: 5em 2em 10em;
-	background: #9fb6a5;
 	text-align: center;
+	transition: height 1s;
 }
 
 section.related {
