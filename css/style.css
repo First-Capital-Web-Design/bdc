@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav #fh5co-logo {
   font-size: 24px;
   margin: 0;
-  margin-top: -10px;
+  margin-top: -13px;
   padding: 0;
   padding-left: 7px;
   text-transform: uppercase;
@@ -273,10 +273,10 @@ h1, h2, h3, h4, h5, h6, figure {
   border-bottom: none;
 }
 .fh5co-nav ul li.has-dropdown:hover a, .fh5co-nav ul li.has-dropdown:focus a {
-  color: #fff;
+  color: #4A3B93;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #fff;
+  color: #4A3B93;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #9FB6A5;
@@ -1253,7 +1253,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 90%;
   padding: 30px;
   float: right;
-  margin-top: -5em;
+  margin-top: -20px;
   -webkit-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
@@ -1302,7 +1302,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: black;
 }
 .container-footer-1{
-  padding-top: 70px;
+  padding-top: 40px;
   background: #444;
   margin-bottom: 50px;
   color: lightgrey;
@@ -1869,7 +1869,6 @@ ul {
 .plchld-img {
   width: 100%;
   height: 300px;
-  outline: 1px solid black;
   margin-bottom: 20px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1938,4 +1937,7 @@ h3 {
   top: -40px;
   font-size: 14px;
   color: grey;
+}
+.footer-no-head{
+  margin-top: 61px;
 }
