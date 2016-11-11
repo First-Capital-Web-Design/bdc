@@ -1943,4 +1943,8 @@ h3 {
 }
 .img-gallery-centered{
   margin: 40px auto;
+  max-width: 800px;
+}
+.img-ver{
+  max-width: 400px;
 }
