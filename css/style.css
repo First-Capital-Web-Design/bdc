@@ -1941,3 +1941,6 @@ h3 {
 .footer-no-head{
   margin-top: 61px;
 }
+.img-gallery-centered{
+  margin: 40px auto;
+}
